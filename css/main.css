@@ -1,0 +1,74 @@
+#main-content{
+  text-align: center;
+}
+
+.button.super-tiny{
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 11px;
+}
+
+.button.due-today{
+  background-color: #FFA319;
+}
+
+
+.button.due-today:focus{
+  background-color: #E69316;
+}
+
+.button.due-today:hover{
+  background-color: #E69316;
+}
+
+.button.due-tomorrow{
+  background-color: #0033CC;
+}
+
+
+.button.due-tomorrow:focus{
+  background-color: #0029A3;
+}
+
+.button.due-tomorrow:hover{
+  background-color: #0029A3;
+}
+
+.button.due-dayafter{
+  background-color: #009933;
+}
+
+
+.button.due-dayafter:focus{
+  background-color: #007A29;
+}
+
+.button.due-dayafter:hover{
+  background-color: #007A29;
+}
+
+.button.rendering-error{
+  background-color: #12120C;
+}
+
+.button.rendering-error:focus{
+  background-color: #12120C;
+}
+
+.button.rendering-error:hover{
+  background-color: #12120C;
+}
+
+.button.rendering-overdue{
+  background-color: #8A0000;
+}
+
+.button.rendering-overdue:focus{
+  background-color: #6E0000;
+}
+
+.button.rendering-overdue:hover{
+  background-color: #6E0000;
+}

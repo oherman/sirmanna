@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <title>Scenes</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="small-2 large-2 columns">&nbsp;</div>
+
+      <div class="small-4 large-8 columns" id="main-content">
+        <h1>Project Name</h1>
+        <h1>Department Name</h1>
+        <a class="button tiny">Script Order</a>
+        SCENES
+        <a class="button tiny">Shooting Order</a>
+
+        <!-- 31 x 15 grid -->
+        <div class="panel">
+          <a class="button tiny secondary">1</a>          
+          <a class="button tiny secondary">2</a>
+          <a class="button tiny secondary disabled">3</a>
+          <a class="button tiny secondary">4</a>
+          <a class="button tiny secondary">5</a>
+        </div>
+        TASKS
+        <div class="tasks-panel">
+          <a href="#" data-dropdown="overdue-items" class="button tiny alert dropdown">
+            OVERDUE
+          </a>
+          <ul id="overdue-items" data-dropdown-content class="f-dropdown">
+            <li>
+              DAY 1
+            </li>
+            <li>
+              DAY 2
+            </li>
+            <li>
+              DAY 3
+            </li>
+          </ul>
+          <a href="#" data-dropdown="due-today-items" class="button tiny due-today dropdown">
+            DUE TODAY
+          </a>
+          <ul id="due-today-items" data-dropdown-content class="f-dropdown">
+            <li>
+              DAY 4
+            </li>
+            <li>
+              DAY 5
+            </li>
+            <li>
+              DAY 6
+            </li>
+          </ul>
+          <a href="#" data-dropdown="due-tomorrow-items" class="button tiny due-tomorrow dropdown">
+            DUE TOMORROW
+          </a>
+          <ul id="due-tomorrow-items" data-dropdown-content class="f-dropdown">
+            <li>
+              DAY 7
+            </li>
+            <li>
+              DAY 8
+            </li>
+            <li>
+              DAY 9
+            </li>
+          </ul>
+          <a href="#" data-dropdown="due-dayafter-items" class="button tiny due-dayafter dropdown">
+            DUE DAY AFTER
+          </a>
+          <ul id="due-dayafter-items" data-dropdown-content class="f-dropdown">
+            <li>
+              DAY 10
+            </li>
+            <li>
+              DAY 11
+            </li>
+            <li>
+              DAY 12
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="small-6 large-2 columns">&nbsp;</div>
+    </div>
+
+
+
+    <link rel="stylesheet" href="css/foundation.css">
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script> 
+  </body>
+</html>
