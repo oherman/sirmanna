@@ -9,10 +9,10 @@ define('crypt_hash','jgUHBkjbhIOUHBkjbiuKBOIUftycoihpoJ:nT*7gjhvJGuYGBhjbiYVGBUy
 define('ext_scripts','0');
 
 //Database
-define('db_address','localhost');
-define('db_user','root');
-define('db_password','');
-define('db_name','manfred');
+define('db_address','mysql.manfred.rotbrc.com');
+define('db_user','manfred_ag');
+define('db_password','h0llyw00d');
+define('db_name','m_project');
 
 //Folder paths
 define('css_path','/css');
